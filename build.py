@@ -1,7 +1,7 @@
 import re, html, pathlib
 L = pathlib.Path(r"C:\Users\punit\Claude\Projects\clearbill\legal")
 OUT = pathlib.Path(__file__).parent
-EMAIL = "punith.nagaraju@cdandlc.com"
+EMAIL = "contact@cdandlc.com"
 UPDATED = "October 6, 2026"
 
 def inline(t):
