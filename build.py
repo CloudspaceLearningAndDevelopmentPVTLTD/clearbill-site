@@ -57,7 +57,7 @@ def page(fname, title, body):
     (OUT / fname).write_text(f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} - ClearBill</title>
 <style>{CSS}</style></head><body><header>{NAV}</header><main>{body}
-<p><small>Last updated: {UPDATED}. Contact: <a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:+9182132920587">+9182132920587</a></small></p></main>
+<p><small>Last updated: {UPDATED}. Contact: <a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:+918214106158">+918214106158</a></small></p></main>
 <footer>&copy; Cloudspace Learning and Development Pvt Ltd. ClearBill provides information and paperwork assistance only; it is not legal, medical, or financial advice.</footer></body></html>""", encoding="utf-8")
 
 page("privacy.html", "Privacy Policy", md((L/"privacy-policy.md").read_text(encoding="utf-8-sig")))
@@ -74,4 +74,4 @@ page("index.html", "ClearBill", f"""<h1>ClearBill</h1>
 <p><strong>"We never see your name. Your identity stays on your phone."</strong></p>
 <p>ClearBill helps you decode a medical bill, spot possible errors and overcharges, check financial-assistance eligibility, and prepare dispute letters. Bill images and your personal details are processed only on your device.</p>
 <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="health-privacy.html">Consumer Health Data Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li><li><a href="delete-data.html">Delete your data</a></li></ul>
-<h2>Support</h2><p>Email <a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:+9182132920587">+9182132920587</a>.</p>""")
+<h2>Support</h2><p>Email <a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="tel:+918214106158">+918214106158</a>.</p>""")
